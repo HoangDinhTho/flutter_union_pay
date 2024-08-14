@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'union_pay'
-  s.version          = '1.0.2'
+  s.version          = '3.4.2'
   s.summary          = 'A Flutter plugin for allowing developers to pay with native Android&iOS UnionPay SDKs.'
   s.description      = <<-DESC
   A Flutter plugin for allowing developers to pay with native Android&iOS UnionPay SDKs.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.libraries = 'z','c++'
   s.dependency 'Flutter'
   s.static_framework = true
-  s.platform = :ios, '9.0'
+  s.platform = :ios, '13.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }

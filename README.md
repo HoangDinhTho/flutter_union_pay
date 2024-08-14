@@ -53,3 +53,14 @@ mode分为测试环境和生产环境，scheme只对iOS有效
  example
 [示例](./example/lib/main.dart)
 
+## Release 1.0.3
+ Version PaymentControl
+  Android UPPayAssistEx 3.5.0
+  iOS UPPayAssistEx 3.4.2 build1
+
+ chickenpot project get at
+  union_pay:
+        git:
+            url: https://github.com/HoangDinhTho/flutter_union_pay.git
+            ref: projects/chickenpot
+
