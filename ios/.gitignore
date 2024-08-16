@@ -11,7 +11,10 @@ DerivedData/
 build/
 GeneratedPluginRegistrant.h
 GeneratedPluginRegistrant.m
-
+**/Pods/
+**/.symlinks/
+profile
+xcuserdata
 .generated/
 
 *.pbxuser

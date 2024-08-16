@@ -5,3 +5,8 @@
 .pub/
 
 build/
+**/Pods/
+**/.symlinks/
+profile
+xcuserdata
+**/.generated/
