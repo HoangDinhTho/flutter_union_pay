@@ -55,8 +55,8 @@ mode分为测试环境和生产环境，scheme只对iOS有效
 
 ## Release 1.0.3
  Version PaymentControl
-  Android UPPayAssistEx 3.5.0
-  iOS UPPayAssistEx 3.4.2 build1
+  Android UPPayAssistEx 3.5.15
+  iOS UPPaymentControlMini.xcframewrok 3.5.0
 
  chickenpot project get at
   union_pay:
@@ -64,3 +64,5 @@ mode分为测试环境和生产环境，scheme只对iOS有效
             url: https://github.com/HoangDinhTho/flutter_union_pay.git
             ref: projects/chickenpot
 
+## Upadte Pod
+please Pod install --repo-update
